@@ -1,10 +1,11 @@
-const RANKINS_DIR = './rankings';
+const RANKINGS_DIR = './rankings';
 const OPENINGS_JSON_FILE = 'openings.json';
 const OLD_FULL_OPENINGS_JSON_FILE = './rankings/openings.json';
 const LINK_ICON = './res/foreign.png';
 const YEAR_QUERY_PARAM = 'year';
 const VALID_YEARS = [2021, 2022, 2023];
 const DEFAULT_YEAR = VALID_YEARS[1];
+const BASE_HEADING_TEXT = ' Anime Year in Review - Openings'
 
 
 function getRankingYear() {
@@ -22,8 +23,10 @@ function getRankingYear() {
 
 // Pull year from query param and load json file
 const year = getRankingYear();
+const pageHeader = document.getElementById('opening-heading');
+pageHeader.innerText = `${year}${BASE_HEADING_TEXT}`;
 
-fetch(`${RANKINS_DIR}/${year}/${OPENINGS_JSON_FILE}`)
+fetch(`${RANKINGS_DIR}/${year}/${OPENINGS_JSON_FILE}`)
   .then(response => response.json())
   .then(json => buildRankings(json));
 
