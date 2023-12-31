@@ -1,11 +1,32 @@
-const OPENINGS_JSON_FILE = './rankings/openings.json';
+const RANKINS_DIR = './rankings';
+const OPENINGS_JSON_FILE = 'openings.json';
+const OLD_FULL_OPENINGS_JSON_FILE = './rankings/openings.json';
 const LINK_ICON = './res/foreign.png';
+const YEAR_QUERY_PARAM = 'year';
+const VALID_YEARS = [2021, 2022, 2023];
+const DEFAULT_YEAR = VALID_YEARS[1];
 
-fetch(OPENINGS_JSON_FILE)
+
+function getRankingYear() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const rawQueryYear = urlParams.get(YEAR_QUERY_PARAM);
+  const parsedYear = parseInt(rawQueryYear);
+
+  if (parsedYear && VALID_YEARS.includes(parsedYear)) {
+    return parsedYear;
+  } else {
+    return DEFAULT_YEAR;
+  }
+}
+
+
+// Pull year from query param and load json file
+const year = getRankingYear();
+
+fetch(`${RANKINS_DIR}/${year}/${OPENINGS_JSON_FILE}`)
   .then(response => response.json())
   .then(json => buildRankings(json));
 
-// Aight let's do it
 
 
 function playVideo(url) {
@@ -50,7 +71,7 @@ function buildRankings(json) {
 
   let colors = [];
   let colorIndices = [];
-  
+
   tiers.forEach(tierData => {
     let tier = document.createElement('p');
 
@@ -83,7 +104,7 @@ function buildRankings(json) {
     let label = document.createElement('p');
     label.innerHTML = award.award;
     label.classList.add('award-title')
-    
+
     let op = document.createElement('a');
     op.classList.add('award-op')
     let opening = openings[award.index]
@@ -131,7 +152,7 @@ function buildRankings(json) {
     rankSpan.innerHTML = `${rank + 1}`;
     rankSpan.classList.add('rank-index');
     rankSpan.style.backgroundColor = currentTierColor;
-    
+
     openingItem.appendChild(rankSpan);
 
     // Add the OP detail
