@@ -161,6 +161,10 @@ select option {
         padding: 0rem 0rem 2rem 0rem;
     }
 
+    #heading-container {
+        flex-direction: column;
+    }
+
     .award-item {
         font-size: 0.8em;
     }
