@@ -104,9 +104,7 @@ body {
 .ranking-item {
     display: flex;
     font-family: monospace;
-    /* font-weight: bold; */
     font-size: 1.5em;
-    /* padding: 0.4rem 0rem; */
     cursor: pointer;
 }
 
@@ -163,6 +161,10 @@ select option {
         padding: 0rem 0rem 2rem 0rem;
     }
 
+    .award-item {
+        font-size: 0.8em;
+    }
+
     #opening-video {
         display: none;
         position: fixed;
@@ -189,9 +191,7 @@ select option {
     .ranking-item {
         display: flex;
         font-family: monospace;
-        /* font-weight: bold; */
         font-size: 0.8em;
-        /* padding: 0.4rem 0rem; */
         cursor: pointer;
     }
 }
