@@ -38,8 +38,15 @@ body {
     -moz-box-shadow: 10px 10px 28px -4px rgba(0, 0, 0, 0.52);
 }
 
+#heading-container {
+    display: flex;
+    justify-content: center;
+}
+
 #opening-heading {
     text-align: center;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 
@@ -56,9 +63,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
-.award-item>p,
-a {}
 
 .award-title {
     font-style: italic;
@@ -139,6 +143,18 @@ a {}
     height: 1rem;
     margin-top: 0.5rem;
     margin-right: 0.5rem;
+}
+
+#year-select {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    font-weight: bold;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+select option {
+    font-size: 1em;
 }
 
 

@@ -14,7 +14,14 @@
 </head>
 
 <body>
-    <h1 id="opening-heading">2023 Anime Year in Review - Openings</h1>
+    <div id="heading-container">
+        <select name="year-select" id="year-select" onchange="yearSelected(this)">
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+        </select>
+        <h1 id="opening-heading">Anime Year in Review - Openings</h1>
+    </div>
     <div id="opening-ranking-container">
         <div id="awards-container">
             <div id="awards">

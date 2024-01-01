@@ -5,13 +5,9 @@ const LINK_ICON = './res/foreign.png';
 const YEAR_QUERY_PARAM = 'year';
 const VALID_YEARS = [2021, 2022, 2023];
 const DEFAULT_YEAR = VALID_YEARS[2];
-const BASE_HEADING_TEXT = ' Anime Year in Review - Openings'
 
-
-function getRankingYear() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const rawQueryYear = urlParams.get(YEAR_QUERY_PARAM);
-  const parsedYear = parseInt(rawQueryYear);
+function parseYear(rawYear) {
+  const parsedYear = parseInt(rawYear);
 
   if (parsedYear && VALID_YEARS.includes(parsedYear)) {
     return parsedYear;
@@ -20,17 +16,34 @@ function getRankingYear() {
   }
 }
 
+function getRankingYear() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const rawQueryYear = urlParams.get(YEAR_QUERY_PARAM);
+  return parseYear(rawQueryYear);
+}
 
 // Pull year from query param and load json file
-const year = getRankingYear();
-const pageHeader = document.getElementById('opening-heading');
-pageHeader.innerText = `${year}${BASE_HEADING_TEXT}`;
+const initialYear = getRankingYear();
+const select = document.getElementById('year-select');
+select.value = `${initialYear}`;
+loadYear(initialYear);
 
-fetch(`${RANKINGS_DIR}/${year}/${OPENINGS_JSON_FILE}`)
-  .then(response => response.json())
-  .then(json => buildRankings(json));
+function loadYear(year) {
+  if (!VALID_YEARS.includes(year)) {
+    alert(`No rankings available for year: ${year}`)
+    return;
+  }
+
+  fetch(`${RANKINGS_DIR}/${year}/${OPENINGS_JSON_FILE}`)
+    .then(response => response.json())
+    .then(json => buildRankings(json));
+}
 
 
+function yearSelected(selectObject) {
+  const year = parseYear(selectObject.value);
+  loadYear(year);
+}
 
 function playVideo(url) {
   // Set the player source and show
@@ -60,10 +73,27 @@ function onModalClick() {
 }
 
 
+function getRankingParentElement() {
+  return document.getElementById('opening-ranking');
+}
+
+function getAwardsParentElement() {
+  return document.getElementById('awards');
+}
+
+function clearRankings() {
+  const rankingParent = getRankingParentElement();
+  rankingParent.innerHTML = '';
+
+  const awardsParent = getAwardsParentElement();
+  awardsParent.innerHTML = '';
+}
+
 function buildRankings(json) {
   console.log(json);
+  clearRankings();
   // Let's just spit it out real quick
-  const rankingParent = document.getElementById('opening-ranking');
+  const rankingParent = getRankingParentElement();
 
   // Write out the tiers
   const tiers = json.tiers;
@@ -97,7 +127,7 @@ function buildRankings(json) {
 
 
   // Write out the awards!
-  const awardsParent = document.getElementById('awards');
+  const awardsParent = getAwardsParentElement();
 
   awards.forEach(award => {
     let container = document.createElement('div');
