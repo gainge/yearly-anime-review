@@ -4,7 +4,7 @@ const OLD_FULL_OPENINGS_JSON_FILE = './rankings/openings.json';
 const LINK_ICON = './res/foreign.png';
 const YEAR_QUERY_PARAM = 'year';
 const VALID_YEARS = [2021, 2022, 2023];
-const DEFAULT_YEAR = VALID_YEARS[1];
+const DEFAULT_YEAR = VALID_YEARS[2];
 const BASE_HEADING_TEXT = ' Anime Year in Review - Openings'
 
 
