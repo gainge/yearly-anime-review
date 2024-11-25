@@ -3,8 +3,8 @@ const OPENINGS_JSON_FILE = 'openings.json';
 const OLD_FULL_OPENINGS_JSON_FILE = './rankings/openings.json';
 const LINK_ICON = './res/foreign.png';
 const YEAR_QUERY_PARAM = 'year';
-const VALID_YEARS = [2021, 2022, 2023];
-const DEFAULT_YEAR = VALID_YEARS[2];
+const VALID_YEARS = [2021, 2022, 2023, 2024];
+const DEFAULT_YEAR = VALID_YEARS[VALID_YEARS.length - 1];
 
 function parseYear(rawYear) {
   const parsedYear = parseInt(rawYear);
@@ -47,29 +47,32 @@ function yearSelected(selectObject) {
 
 function playVideo(url) {
   // Set the player source and show
-  let modal = document.getElementById('modal');
-  let video = document.getElementById('opening-video');
-  let source = document.getElementById('video-source');
-
+  const modal = document.getElementById('modal');
+  const video = document.getElementById('opening-video');
+  const source = document.getElementById('video-source');
+  
   source.setAttribute('src', url);
   video.load();
-
+  
   modal.style.display = 'inherit';
   video.style.display = 'inherit';
 
   // TODO: might have to do something with the playback position here? start from 0?
 }
 
-function onModalClick() {
+function stopVideo() {
   console.log('closing video');
-
-  let modal = document.getElementById('modal');
-  let video = document.getElementById('opening-video');
+  const modal = document.getElementById('modal');
+  const video = document.getElementById('opening-video');
 
   video.pause();
 
   modal.style.display = 'none';
   video.style.display = 'none';
+}
+
+function onModalClick() {
+  stopVideo();
 }
 
 
@@ -142,9 +145,13 @@ function buildRankings(json) {
     op.classList.add('award-op')
     let opening = openings[award.index]
     op.innerHTML = opening.name;
-    op.onclick = () => playVideo(opening.link);
-    // op.setAttribute('href', );
 
+    if (opening.showURL.indexOf('youtu') >= 0) {
+      op.onclick = () => window.open(opening.showURL, '_blank').focus();
+    } else {
+      op.onclick = () => playVideo(opening.link);
+    }
+    
     container.appendChild(label);
     container.appendChild(op);
 
@@ -191,7 +198,11 @@ function buildRankings(json) {
     // Add the OP detail
     let openingDetail = document.createElement('p');
     openingDetail.innerHTML = opening.name;
-    openingDetail.onclick = () => playVideo(opening.link);
+    if (opening.link.indexOf('youtu') >= 0) {
+      openingDetail.onclick = () => window.open(opening.link, '_blank').focus();
+    } else {
+      openingDetail.onclick = () => playVideo(opening.link);
+    }
     openingDetail.classList.add('op-title');
 
     openingItem.appendChild(openingDetail);
