@@ -111,7 +111,7 @@
             "showURL": "https://anilist.co/anime/163078/Yoru-no-Kurage-wa-Oyogenai/"
         },
         {
-            "name": "2.5 Jigen no Ririsa",
+            "name": "2.5 Jigen no Ririsa OP1",
             "link": "https://v.animethemes.moe/25JigenNoRirisa-OP1.webm",
             "showURL": "https://anilist.co/anime/158559/25-Jigen-no-Ririsa/"
         },
@@ -209,6 +209,16 @@
             "name": "Ore dake Level Up na Ken",
             "link": "https://v.animethemes.moe/SoloLeveling-OP1.webm",
             "showURL": "https://anilist.co/anime/151807/Ore-dake-Level-Up-na-Ken/"
+        },
+        {
+            "name": "2.5 Jigen no Ririsa OP2",
+            "link": "https://v.animethemes.moe/25JigenNoRirisa-OP2v2.webm",
+            "showURL": "https://anilist.co/anime/158559/25-Jigen-no-Ririsa/"
+        },
+        {
+            "name": "Beastars Final Season Part 1",
+            "link": "https://v.animethemes.moe/BeastarsS3-OP1.webm",
+            "showURL": "https://anilist.co/anime/136880/BEASTARS-FINAL-SEASON-Part-1/"
         }
     ],
     "tiers": [
@@ -221,55 +231,55 @@
         {
             "label": "S",
             "low": 2,
-            "high": 6,
+            "high": 7,
             "color": "#D9D9D9"
         },
         {
             "label": "A+",
-            "low": 6,
-            "high": 11,
+            "low": 7,
+            "high": 12,
             "color": "#FF0000"
         },
         {
             "label": "A",
-            "low": 11,
-            "high": 15,
+            "low": 12,
+            "high": 16,
             "color": "#FF9900"
         },
         {
             "label": "A-",
-            "low": 15,
-            "high": 23,
+            "low": 16,
+            "high": 24,
             "color": "#FFFF00"
         },
         {
             "label": "B+",
-            "low": 23,
-            "high": 28,
+            "low": 24,
+            "high": 29,
             "color": "#00FF00"
         },
         {
             "label": "B",
-            "low": 28,
-            "high": 32,
+            "low": 29,
+            "high": 33,
             "color": "#00FFFF"
         },
         {
             "label": "B-",
-            "low": 32,
-            "high": 35,
+            "low": 33,
+            "high": 37,
             "color": "#4A86E8"
         },
         {
             "label": "C",
-            "low": 35,
-            "high": 38,
+            "low": 37,
+            "high": 40,
             "color": "#674EA7"
         },
         {
             "label": "C-",
-            "low": 38,
-            "high": 43,
+            "low": 40,
+            "high": 45,
             "color": "#FC86C4"
         }
     ],
@@ -277,8 +287,9 @@
         0,
         1,
         2,
-        3,
+        43,
         4,
+        3,
         5,
         6,
         7,
@@ -307,6 +318,7 @@
         30,
         31,
         32,
+        42,
         33,
         34,
         35,
