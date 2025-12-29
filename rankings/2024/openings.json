@@ -3,222 +3,310 @@
         {
             "name": "Dandadan",
             "link": "https://v.animethemes.moe/Dandadan-OP1.webm",
-            "showURL": "https://anilist.co/anime/171018/Dandadan/"
+            "showURL": "https://anilist.co/anime/171018/Dandadan/",
+            "id": 171018,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171018-60q1B6GK2Ghb.jpg"
         },
         {
             "name": "Sentai Daishikkaku",
             "link": "https://v.animethemes.moe/SentaiDaishikkaku-OP1.webm",
-            "showURL": "https://anilist.co/anime/158417/Sentai-Daishikkaku/"
+            "showURL": "https://anilist.co/anime/158417/Sentai-Daishikkaku/",
+            "id": 158417,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158417-Ii0DOFwNim0A.jpg"
         },
         {
             "name": "Kusuriya no Hitorigoto OP2",
             "link": "https://v.animethemes.moe/KusuriyaNoHitorigoto-OP2-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/161645/Kusuriya-no-Hitorigoto/"
+            "showURL": "https://anilist.co/anime/161645/Kusuriya-no-Hitorigoto/",
+            "id": 161645,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx161645-QLbzHXiYRgV2.jpg"
         },
         {
             "name": "Dungeon Meshi OP2",
             "link": "https://v.animethemes.moe/DungeonMeshi-OP2v2-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/153518/Dungeon-Meshi/"
+            "showURL": "https://anilist.co/anime/153518/Dungeon-Meshi/",
+            "id": 153518,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153518-IVXPDY5ph3kO.jpg"
         },
         {
             "name": "Wind Breaker",
             "link": "https://v.animethemes.moe/WindBreaker-OP1.webm",
-            "showURL": "https://anilist.co/anime/163270/WIND-BREAKER/"
+            "showURL": "https://anilist.co/anime/163270/WIND-BREAKER/",
+            "id": 163270,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163270-wboZJp0ybwVK.jpg"
         },
         {
             "name": "Shikanoko nokonoko Koshitantan",
             "link": "https://v.animethemes.moe/Shikanoko-OP1.webm",
-            "showURL": "https://anilist.co/anime/175977/Shikanoko-Nokonoko-Koshitantan/"
+            "showURL": "https://anilist.co/anime/175977/Shikanoko-Nokonoko-Koshitantan/",
+            "id": 175977,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175977-kNNpCt8Z72uK.jpg"
         },
         {
             "name": "Ao no Hako",
             "link": "https://v.animethemes.moe/AoNoHako-OP1.webm",
-            "showURL": "https://anilist.co/anime/170942/Ao-no-Hako/"
+            "showURL": "https://anilist.co/anime/170942/Ao-no-Hako/",
+            "id": 170942,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170942-KKcLfQzV57nG.jpg"
         },
         {
             "name": "MakeHeroine",
             "link": "https://v.animethemes.moe/Makeine-OP1-BD1080.webm",
-            "showURL": "https://anilist.co/anime/171457/Make-Heroine-ga-Oosugiru/"
+            "showURL": "https://anilist.co/anime/171457/Make-Heroine-ga-Oosugiru/",
+            "id": 171457,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171457-nmMIk0gNiWsm.jpg"
         },
         {
             "name": "Tower of God S2",
             "link": "https://v.animethemes.moe/KamiNoTouS2-OP1.webm",
-            "showURL": "https://anilist.co/anime/153406/Kami-no-Tou-Tower-of-God-2nd-Season/"
+            "showURL": "https://anilist.co/anime/153406/Kami-no-Tou-Tower-of-God-2nd-Season/",
+            "id": 153406,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153406-dU2RLKgMUF2U.jpg"
         },
         {
             "name": "GIRLS BAND CRY",
             "link": "https://v.animethemes.moe/GirlsBandCry-OP1-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/164212/GIRLS-BAND-CRY/"
+            "showURL": "https://anilist.co/anime/164212/GIRLS-BAND-CRY/",
+            "id": 164212,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx164212-eKh15LQxkTEx.jpg"
         },
         {
             "name": "Dungeon Meshi OP1",
             "link": "https://v.animethemes.moe/DungeonMeshi-OP1-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/153518/Dungeon-Meshi/"
+            "showURL": "https://anilist.co/anime/153518/Dungeon-Meshi/",
+            "id": 153518,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx153518-IVXPDY5ph3kO.jpg"
         },
         {
             "name": "Mayonaka Punch",
             "link": "https://v.animethemes.moe/MayonakaPunch-OP1.webm",
-            "showURL": "https://anilist.co/anime/174044/Mayonaka-Punch/"
+            "showURL": "https://anilist.co/anime/174044/Mayonaka-Punch/",
+            "id": 174044,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174044-HBvsyKjDVPyO.jpg"
         },
         {
             "name": "True Beauty",
             "link": "https://youtu.be/HxgCUvwGnfQ",
-            "showURL": "https://anilist.co/anime/152184/Yeosingangnim/"
+            "showURL": "https://anilist.co/anime/152184/Yeosingangnim/",
+            "id": 152184,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx152184-JnfzbmDYysqJ.png"
         },
         {
             "name": "Giji Harem",
             "link": "https://v.animethemes.moe/GijiHarem-OP1.webm",
-            "showURL": "https://anilist.co/anime/163623/Giji-Harem/"
+            "showURL": "https://anilist.co/anime/163623/Giji-Harem/",
+            "id": 163623,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163623-pzR6vIHoJh0b.jpg"
         },
         {
             "name": "A Sign of Affection",
             "link": "https://v.animethemes.moe/YubisakiToRenren-OP1-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/166794/Yubisaki-to-Renren/"
+            "showURL": "https://anilist.co/anime/166794/Yubisaki-to-Renren/",
+            "id": 166794,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166794-1MAXFMgND6qS.jpg"
         },
         {
             "name": "Blue Lock S2",
             "link": "https://v.animethemes.moe/BlueLockS2-OP1.webm",
-            "showURL": "https://anilist.co/anime/163146/Blue-Lock-VS-U20-JAPAN/"
+            "showURL": "https://anilist.co/anime/163146/Blue-Lock-VS-U20-JAPAN/",
+            "id": 163146,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163146-BVZPgyzkqi82.png"
         },
         {
             "name": "HimeGou",
             "link": "https://v.animethemes.moe/HimesamaGoumon-OP1-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/166522/Himesama-Goumon-no-Jikan-desu/"
+            "showURL": "https://anilist.co/anime/166522/Himesama-Goumon-no-Jikan-desu/",
+            "id": 166522,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166522-pUnBSDFzs9DD.jpg"
         },
         {
             "name": "Oshi no Ko S2",
             "link": "https://v.animethemes.moe/OshiNoKoS2-OP1-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/166531/Oshi-no-Ko-2nd-Season/"
+            "showURL": "https://anilist.co/anime/166531/Oshi-no-Ko-2nd-Season/",
+            "id": 166531,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166531-dAL5MsqDHUkj.jpg"
         },
         {
             "name": "Sousou no Frieren OP2",
             "link": "https://v.animethemes.moe/SousouNoFrieren-OP2.webm",
-            "showURL": "https://anilist.co/anime/154587/Sousou-no-Frieren/"
+            "showURL": "https://anilist.co/anime/154587/Sousou-no-Frieren/",
+            "id": 154587,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154587-qQTzQnEJJ3oB.jpg"
         },
         {
             "name": "Pon no Michi",
             "link": "https://v.animethemes.moe/PonNoMichi-OP1.webm",
-            "showURL": "https://anilist.co/anime/165314/Pon-no-Michi/"
+            "showURL": "https://anilist.co/anime/165314/Pon-no-Michi/",
+            "id": 165314,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx165314-oHSkxN95nSsx.jpg"
         },
         {
             "name": "Ao no Orchestra",
             "link": "https://v.animethemes.moe/AoNoOrchestra-OP1.webm",
-            "showURL": "https://anilist.co/anime/147369/Ao-no-Orchestra/"
+            "showURL": "https://anilist.co/anime/147369/Ao-no-Orchestra/",
+            "id": 147369,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx147369-Aodog1O7Nhuq.png"
         },
         {
             "name": "Yoru no Kurage wa Oyogenai",
             "link": "https://v.animethemes.moe/YoruKura-OP1-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/163078/Yoru-no-Kurage-wa-Oyogenai/"
+            "showURL": "https://anilist.co/anime/163078/Yoru-no-Kurage-wa-Oyogenai/",
+            "id": 163078,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163078-akhThKoWpWOb.jpg"
         },
         {
             "name": "2.5 Jigen no Ririsa OP1",
             "link": "https://v.animethemes.moe/25JigenNoRirisa-OP1.webm",
-            "showURL": "https://anilist.co/anime/158559/25-Jigen-no-Ririsa/"
+            "showURL": "https://anilist.co/anime/158559/25-Jigen-no-Ririsa/",
+            "id": 158559,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158559-yCnnnedsSCie.jpg"
         },
         {
             "name": "Senpai wa Otokonoko",
             "link": "https://v.animethemes.moe/SenpaiWaOtokonoko-OP1.webm",
-            "showURL": "https://anilist.co/anime/163133/Senpai-wa-Otokonoko/"
+            "showURL": "https://anilist.co/anime/163133/Senpai-wa-Otokonoko/",
+            "id": 163133,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163133-bdr9S2bdLoyj.jpg"
         },
         {
             "name": "Re:Zero S3",
             "link": "https://v.animethemes.moe/ReZeroS3-OP1.webm",
-            "showURL": "https://anilist.co/anime/163134/ReZero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season/"
+            "showURL": "https://anilist.co/anime/163134/ReZero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season/",
+            "id": 163134,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163134-yieRFbvUOH9a.jpg"
         },
         {
             "name": "Kimetsu no Yaiba S4",
             "link": "https://animethemes.moe/anime/kimetsu_no_yaiba_hashira_geiko_hen/OP1",
-            "showURL": "https://anilist.co/anime/166240/Kimetsu-no-Yaiba-Hashira-Geikohen/"
+            "showURL": "https://anilist.co/anime/166240/Kimetsu-no-Yaiba-Hashira-Geikohen/",
+            "id": 166240,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166240-PBV7zukIHW7V.png"
         },
         {
             "name": "Viral Hit",
             "link": "https://v.animethemes.moe/KenkaDokugaku-OP1.webm",
-            "showURL": "https://anilist.co/anime/174653/Kenka-Dokugaku/"
+            "showURL": "https://anilist.co/anime/174653/Kenka-Dokugaku/",
+            "id": 174653,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174653-OsnK4BuENjUT.jpg"
         },
         {
             "name": "Kimi ni Todoke S3",
             "link": "https://v.animethemes.moe/KimiNiTodokeS3-OP1.webm",
-            "showURL": "https://anilist.co/anime/6045/Kimi-ni-Todoke/"
+            "showURL": "https://anilist.co/anime/6045/Kimi-ni-Todoke/",
+            "id": 6045,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6045-JujXjoWtslUM.jpg"
         },
         {
             "name": "Trillion Game",
             "link": "https://v.animethemes.moe/TrillionGame-OP1.webm",
-            "showURL": "https://anilist.co/anime/169315/Trillion-Game/"
+            "showURL": "https://anilist.co/anime/169315/Trillion-Game/",
+            "id": 169315,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169315-NtbOlSyDtSCZ.png"
         },
         {
             "name": "Shangri-La Frontier S2 OP1",
             "link": "https://v.animethemes.moe/ShangrilaFrontierS2-OP1.webm",
-            "showURL": "https://anilist.co/anime/176508/ShangriLa-Frontier-2nd-Season/"
+            "showURL": "https://anilist.co/anime/176508/ShangriLa-Frontier-2nd-Season/",
+            "id": 176508,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176508-eFad4szofm8d.png"
         },
         {
             "name": "Seiyuu Radio no Uraomote",
             "link": "https://v.animethemes.moe/SeiyuuRadio-OP1v2-NCBD1080.webm",
-            "showURL": "https://anilist.co/anime/159039/Seiyuu-Radio-no-Uraomote/"
+            "showURL": "https://anilist.co/anime/159039/Seiyuu-Radio-no-Uraomote/",
+            "id": 159039,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx159039-88kPltmhTzqU.jpg"
         },
         {
             "name": "Ooi Tonbo S1",
             "link": "https://v.animethemes.moe/OoiTonbo-OP1.webm",
-            "showURL": "https://anilist.co/anime/164440/Ooi-Tonbo/"
+            "showURL": "https://anilist.co/anime/164440/Ooi-Tonbo/",
+            "id": 164440,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx164440-VXOPw3qxGzdz.jpg"
         },
         {
             "name": "VTuber Legend",
             "link": "https://v.animethemes.moe/Vden-OP1.webm",
-            "showURL": "https://anilist.co/anime/160488/VTuber-nanda-ga-Haishin-Kiri-Wasuretara-Densetsu-ni-Natteta/"
+            "showURL": "https://anilist.co/anime/160488/VTuber-nanda-ga-Haishin-Kiri-Wasuretara-Densetsu-ni-Natteta/",
+            "id": 160488,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx160488-TpTlax3qs728.jpg"
         },
         {
             "name": "Dosanko Gal was Namara Menkoi",
             "link": "https://v.animethemes.moe/DosankoGal-OP1.webm",
-            "showURL": "https://anilist.co/anime/155963/Dosanko-Gal-wa-Namara-Menkoi/"
+            "showURL": "https://anilist.co/anime/155963/Dosanko-Gal-wa-Namara-Menkoi/",
+            "id": 155963,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx155963-kOnLUDAEamUe.jpg"
         },
         {
             "name": "Metallic Rouge",
             "link": "https://v.animethemes.moe/MetallicRouge-OP1.webm",
-            "showURL": "https://anilist.co/anime/162985/Metallic-Rouge/"
+            "showURL": "https://anilist.co/anime/162985/Metallic-Rouge/",
+            "id": 162985,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx162985-3J7PrG5oO67v.jpg"
         },
         {
             "name": "Sasayaku You ni Koi wo Utau",
             "link": "https://v.animethemes.moe/Sasakoi-OP1.webm",
-            "showURL": "https://anilist.co/anime/160181/Sasayaku-You-ni-Koi-wo-Utau/"
+            "showURL": "https://anilist.co/anime/160181/Sasayaku-You-ni-Koi-wo-Utau/",
+            "id": 160181,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx160181-EGC0Scngy5In.jpg"
         },
         {
             "name": "Shangri-La Frontier S1 OP2",
             "link": "https://v.animethemes.moe/ShangrilaFrontier-OP2.webm",
-            "showURL": "https://anilist.co/anime/151970/ShangriLa-Frontier/"
+            "showURL": "https://anilist.co/anime/151970/ShangriLa-Frontier/",
+            "id": 151970,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151970-xtIx3VqEk02X.jpg"
         },
         {
             "name": "Rinkai",
             "link": "https://v.animethemes.moe/Rinkai-OP1.webm",
-            "showURL": "https://anilist.co/anime/163141/Rinkai/"
+            "showURL": "https://anilist.co/anime/163141/Rinkai/",
+            "id": 163141,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx163141-dWqdA3MOGtYz.png"
         },
         {
             "name": "30-sai made Doutei da to Mahou Tsukai ni Nareru Rashii",
             "link": "https://v.animethemes.moe/CheriMaho-OP1.webm",
-            "showURL": "https://anilist.co/anime/167087/30sai-made-Doutei-da-to-Mahou-Tsukai-ni-Nareru-Rashii/"
+            "showURL": "https://anilist.co/anime/167087/30sai-made-Doutei-da-to-Mahou-Tsukai-ni-Nareru-Rashii/",
+            "id": 167087,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx167087-Hf3MjsSVIerP.jpg"
         },
         {
             "name": "Goukon ni Ittara Onna ga Inakatta Hanashi",
             "link": "https://v.animethemes.moe/GoukonNiIttara-OP1.webm",
-            "showURL": "https://anilist.co/anime/169931/Goukon-ni-Ittara-Onna-ga-Inakatta-Hanashi/"
+            "showURL": "https://anilist.co/anime/169931/Goukon-ni-Ittara-Onna-ga-Inakatta-Hanashi/",
+            "id": 169931,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169931-tPgDEKaHNkFr.jpg"
         },
         {
             "name": "Ooi Tonbo S2",
             "link": "https://v.animethemes.moe/OoiTonboS2-OP1.webm",
-            "showURL": "https://anilist.co/anime/178729/Ooi-Tonbo-2nd-Season/"
+            "showURL": "https://anilist.co/anime/178729/Ooi-Tonbo-2nd-Season/",
+            "id": 178729,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178729-OD1xRCb2Z6NK.jpg"
         },
         {
             "name": "Ore dake Level Up na Ken",
             "link": "https://v.animethemes.moe/SoloLeveling-OP1.webm",
-            "showURL": "https://anilist.co/anime/151807/Ore-dake-Level-Up-na-Ken/"
+            "showURL": "https://anilist.co/anime/151807/Ore-dake-Level-Up-na-Ken/",
+            "id": 151807,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151807-it355ZgzquUd.png"
         },
         {
             "name": "2.5 Jigen no Ririsa OP2",
             "link": "https://v.animethemes.moe/25JigenNoRirisa-OP2v2.webm",
-            "showURL": "https://anilist.co/anime/158559/25-Jigen-no-Ririsa/"
+            "showURL": "https://anilist.co/anime/158559/25-Jigen-no-Ririsa/",
+            "id": 158559,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx158559-yCnnnedsSCie.jpg"
         },
         {
             "name": "Beastars Final Season Part 1",
             "link": "https://v.animethemes.moe/BeastarsS3-OP1.webm",
-            "showURL": "https://anilist.co/anime/136880/BEASTARS-FINAL-SEASON-Part-1/"
+            "showURL": "https://anilist.co/anime/136880/BEASTARS-FINAL-SEASON-Part-1/",
+            "id": 136880,
+            "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136880-9rhDUCsDfcJ1.jpg"
         }
     ],
     "tiers": [
