@@ -5,8 +5,10 @@ const LINK_ICON = './res/foreign.png';
 const YEAR_QUERY_PARAM = 'year';
 const VALID_YEARS = [2021, 2022, 2023, 2024];
 const DEFAULT_YEAR = VALID_YEARS[VALID_YEARS.length - 1];
+const DEFAULT_MARQUEE_SPEED = 0.20; // px per frame
 
 let marqueeAnimationFrame = undefined;
+let marqueeSpeed = DEFAULT_MARQUEE_SPEED;
 
 function parseYear(rawYear) {
   const parsedYear = parseInt(rawYear);
@@ -47,6 +49,14 @@ function yearSelected(selectObject) {
   loadYear(year);
 }
 
+function stopMarquee() {
+  marqueeSpeed = 0;
+}
+
+function resumeMarquee() {
+  marqueeSpeed = DEFAULT_MARQUEE_SPEED;
+}
+
 function playVideo(url) {
   // Set the player source and show
   const modal = document.getElementById('modal');
@@ -59,7 +69,7 @@ function playVideo(url) {
   modal.style.display = 'inherit';
   video.style.display = 'inherit';
 
-  // TODO: might have to do something with the playback position here? start from 0?
+  stopMarquee();
 }
 
 function stopVideo() {
@@ -71,6 +81,8 @@ function stopVideo() {
 
   modal.style.display = 'none';
   video.style.display = 'none';
+
+  resumeMarquee();
 }
 
 function onModalClick() {
@@ -186,7 +198,6 @@ function buildRankings(json) {
   // Construct cover marquee
   const marqueeTrack = getMarqueeTrackElement();
   const slotWidth = 135; // px, 125 image + 10 gap
-  const speed = 0.20; // px per frame
 
   // Figure out how many images we need to fill the screen + buffer
   const parentWidth = marqueeTrack.parentElement.clientWidth;
@@ -211,7 +222,7 @@ function buildRankings(json) {
   marqueeTrack.classList.add('animated-fade-in');
   
   function updateMarquee() {
-    offset -= speed;
+    offset -= marqueeSpeed;
 
     if (offset <= -slotWidth) {
       const firstSlot = activeSlots.shift();

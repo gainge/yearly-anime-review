@@ -31,6 +31,8 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    background-color: #04040477;
+    aspect-ratio: 16 / 9;
 
     width: 80%;
     max-width: 80%;
@@ -262,6 +264,8 @@ select option {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        background-color: #04040477;
+        aspect-ratio: 16 / 9;
 
         width: 80%;
         max-width: 80%;
