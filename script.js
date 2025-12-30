@@ -211,11 +211,14 @@ function buildRankings(json) {
 
   // Initialize first set of images
   for (let i = 0; i < numImages; i++) {
-    let img = document.createElement('img');
+    const imageContainer = document.createElement('div');
+    imageContainer.classList.add('marquee-image-container');
+    const img = document.createElement('img');
     img.setAttribute('src', coverImages[i % coverImages.length]);
     img.classList.add('marquee-image');
-    marqueeTrack.appendChild(img);
-    activeSlots.push(img);
+    imageContainer.appendChild(img);
+    marqueeTrack.appendChild(imageContainer);
+    activeSlots.push(imageContainer);
   }
 
   // Fade in the marquee
@@ -234,7 +237,7 @@ function buildRankings(json) {
       // Update content of the recycled image
       headIndex = (headIndex + 1) % coverImages.length;
       const nextImageIndex = (headIndex + numImages - 1) % coverImages.length;
-      firstSlot.setAttribute('src', coverImages[nextImageIndex]);
+      firstSlot.querySelector('img').setAttribute('src', coverImages[nextImageIndex]);
     }
 
     // Apply transform to marquee track
