@@ -3,7 +3,7 @@ const OPENINGS_JSON_FILE = 'openings.json';
 const OLD_FULL_OPENINGS_JSON_FILE = './rankings/openings.json';
 const LINK_ICON = './res/foreign.png';
 const YEAR_QUERY_PARAM = 'year';
-const VALID_YEARS = [2021, 2022, 2023, 2024];
+const VALID_YEARS = [2021, 2022, 2023, 2024, 2025];
 const DEFAULT_YEAR = VALID_YEARS[VALID_YEARS.length - 1];
 const DEFAULT_MARQUEE_SPEED = 0.20; // px per frame
 

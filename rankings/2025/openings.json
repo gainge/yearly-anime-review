@@ -1,7 +1,7 @@
 {
     "openings": [
         {
-            "name": "Sono Bisque Doll wa Koi wo Suru Season 2",
+            "name": "My Dress-Up Darling Season 2",
             "link": "https://v.animethemes.moe/BisqueDollS2-OP1.webm",
             "id": 154768,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154768-DHHvNd4MjV1p.jpg",
@@ -36,7 +36,7 @@
             "showURL": "https://anilist.co/anime/185407"
         },
         {
-            "name": "Kusuriya no Hitorigoto 2nd Season OP 1",
+            "name": "Apothecary Diaries 2nd Season OP 1",
             "link": "https://v.animethemes.moe/KusuriyaNoHitorigotoS2-OP1-NCBD1080.webm",
             "id": 176301,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg",
@@ -106,7 +106,7 @@
             "showURL": "https://anilist.co/anime/179694"
         },
         {
-            "name": "One Piece Egghead OP 3",
+            "name": "One Piece - Carmine",
             "link": "https://v.animethemes.moe/OnePiece-OP28.webm",
             "id": 21,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-ELSYx3yMPcKM.jpg",
@@ -120,14 +120,14 @@
             "showURL": "https://anilist.co/anime/185660"
         },
         {
-            "name": "Watashi ga Koibito ni Nareru Wake Naijan, Murimuri! (※Muri ja Nakatta!?)",
+            "name": "Watanare",
             "link": "https://v.animethemes.moe/Watanare-OP1.webm",
             "id": 184591,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184591-jRXZ29bN61Zc.jpg",
             "showURL": "https://anilist.co/anime/184591"
         },
         {
-            "name": "One Piece Egghead OP 2",
+            "name": "One Piece - Tenshi to Akuma",
             "link": "https://v.animethemes.moe/OnePiece-OP27.webm",
             "id": 21,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21-ELSYx3yMPcKM.jpg",
@@ -148,7 +148,7 @@
             "showURL": "https://anilist.co/anime/175914"
         },
         {
-            "name": "Ao no Orchestra",
+            "name": "Ao no Orchestra S2",
             "link": "https://v.animethemes.moe/AoNoOrchestraS2-OP1.webm",
             "id": 170018,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170018-1PqdLX68YayA.jpg",
@@ -169,7 +169,7 @@
             "showURL": "https://anilist.co/anime/184237"
         },
         {
-            "name": "Sorairo Utility (TV)",
+            "name": "Sorairo Utility",
             "link": "https://v.animethemes.moe/SorairoUtilityTV-OP1.webm",
             "id": 174596,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174596-GbgKrUtBBuIg.jpg",
@@ -197,7 +197,7 @@
             "showURL": "https://anilist.co/anime/175443"
         },
         {
-            "name": "Kusuriya no Hitorigoto 2nd Season OP 2",
+            "name": "Apothecary Diaries 2nd Season OP 2",
             "link": "https://v.animethemes.moe/KusuriyaNoHitorigotoS2-OP2-NCBD1080.webm",
             "id": 176301,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176301-TIGmldLffQGX.jpg",
@@ -246,7 +246,7 @@
             "showURL": "https://anilist.co/anime/186003"
         },
         {
-            "name": "Ore dake Level Up na Ken: Season 2 - Arise from the Shadow",
+            "name": "Solo Leveling Season 2",
             "link": "https://v.animethemes.moe/SoloLevelingS2-OP1.webm",
             "id": 176496,
             "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176496-9BDMjAZGEbq4.png",
@@ -339,44 +339,44 @@
         {
             "label": "A+",
             "low": 9,
-            "high": 13,
+            "high": 14,
             "color": "#FF0000"
         },
         {
             "label": "A",
-            "low": 13,
-            "high": 22,
+            "low": 14,
+            "high": 23,
             "color": "#FF9900"
         },
         {
             "label": "B+",
-            "low": 22,
+            "low": 23,
             "high": 29,
-            "color": "#00FF00"
+            "color": "#FFFF00"
         },
         {
             "label": "B",
             "low": 29,
             "high": 37,
-            "color": "#00FFFF"
+            "color": "#00FF00"
         },
         {
             "label": "B-",
             "low": 37,
             "high": 41,
-            "color": "#4A86E8"
+            "color": "#00FFFF"
         },
         {
             "label": "C",
             "low": 41,
             "high": 44,
-            "color": "#674EA7"
+            "color": "#4A86E8"
         },
         {
             "label": "C-",
             "low": 44,
             "high": 47,
-            "color": "#FC86C4"
+            "color": "#674EA7"
         }
     ],
     "ranking": [
@@ -430,23 +430,23 @@
     "awards": [
         {
             "award": "Best Song",
-            "index": 0
+            "index": 20
         },
         {
             "award": "Best Visuals",
-            "index": 1
-        },
-        {
-            "award": "Best Cinematography",
-            "index": 2
-        },
-        {
-            "award": "Dark Horse",
             "index": 3
         },
         {
+            "award": "Best Cinematography",
+            "index": 7
+        },
+        {
+            "award": "Dark Horse",
+            "index": 1
+        },
+        {
             "award": "Guilty Pleasure",
-            "index": 4
+            "index": 15
         }
     ]
 }
