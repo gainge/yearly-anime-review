@@ -22,6 +22,7 @@ body {
     background-color: #04040477;
     height: 100%;
     width: 100%;
+    z-index: 10;
 }
 
 #opening-video {
@@ -62,13 +63,29 @@ body {
 }
 
 
+#banner-container {
+    position: relative;
+    margin-bottom: 1rem;
+    height: 11rem;
+}
+
 #awards-container {
     display: flex;
     justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
 }
 
 #awards {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: ghostwhite;
+    align-content: center;
+    padding: 0 1rem;
+    filter: drop-shadow(5px 5px 11px #929292);
+    border-radius: 0.5rem;
 }
 
 .award-item {
@@ -87,6 +104,58 @@ body {
     cursor: pointer;
     color: royalblue;
     font-weight: bold;
+}
+
+#cover-marquee-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.animated-fade-in {
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+#cover-marquee-track {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    will-change: transform;
+}
+
+#cover-marquee-container:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to right, rgba(255,255,255,0), ghostwhite 90%);
+    width: 10%;
+    height: 100%;
+}
+
+#cover-marquee-container:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: linear-gradient(to left, rgba(255,255,255,0), ghostwhite 90%);
+    width: 10%;
+    height: 100%;
+}
+
+.marquee-image {
+    /* height: 100%;
+    aspect-ratio: 46 / 65; */
+    width: 125px;
+    object-fit: cover;
+    opacity: 85%;
 }
 
 #opening-ranking {
@@ -118,6 +187,7 @@ body {
     font-family: monospace;
     font-size: 1.5em;
     cursor: pointer;
+    background-color: ghostwhite;
 }
 
 .op-title {
@@ -125,7 +195,7 @@ body {
 }
 
 .ranking-item:hover {
-    background-color: #acacac33;
+    background-color: rgb(232, 232, 232);
 }
 
 .ranking-item>p {
@@ -165,6 +235,11 @@ body {
 
 select option {
     font-size: 1em;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 

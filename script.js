@@ -6,6 +6,8 @@ const YEAR_QUERY_PARAM = 'year';
 const VALID_YEARS = [2021, 2022, 2023, 2024];
 const DEFAULT_YEAR = VALID_YEARS[VALID_YEARS.length - 1];
 
+let marqueeAnimationFrame = undefined;
+
 function parseYear(rawYear) {
   const parsedYear = parseInt(rawYear);
 
@@ -84,6 +86,10 @@ function getAwardsParentElement() {
   return document.getElementById('awards');
 }
 
+function getMarqueeTrackElement() {
+  return document.getElementById('cover-marquee-track');
+}
+
 function clearRankings() {
   const rankingParent = getRankingParentElement();
   rankingParent.innerHTML = '';
@@ -92,8 +98,20 @@ function clearRankings() {
   awardsParent.innerHTML = '';
 }
 
+function clearMarquee() {
+  if (marqueeAnimationFrame) {
+    cancelAnimationFrame(marqueeAnimationFrame);
+    marqueeAnimationFrame = undefined;
+    const marqueeTrack = getMarqueeTrackElement();
+    marqueeTrack.innerHTML = '';
+    marqueeTrack.style.opacity = 0;
+    marqueeTrack.classList.remove('animated-fade-in');
+  }
+}
+
 function buildRankings(json) {
   console.log(json);
+  clearMarquee();
   clearRankings();
   // Let's just spit it out real quick
   const rankingParent = getRankingParentElement();
@@ -158,7 +176,62 @@ function buildRankings(json) {
     awardsParent.appendChild(container);
   });
 
+  const coverImages = openings.map(op => op.coverImage).filter(url => url && url.length > 0);
+  // Shuffle the images
+  for (let i = coverImages.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [coverImages[i], coverImages[j]] = [coverImages[j], coverImages[i]];
+  }
 
+  // Construct cover marquee
+  const marqueeTrack = getMarqueeTrackElement();
+  const slotWidth = 135; // px, 125 image + 10 gap
+  const speed = 0.20; // px per frame
+
+  // Figure out how many images we need to fill the screen + buffer
+  const parentWidth = marqueeTrack.parentElement.clientWidth;
+  const numImages = Math.ceil(parentWidth / slotWidth) + 2;
+  console.log(`Marquee parent width: ${parentWidth}, num images: ${numImages}`);
+
+  const activeSlots = [];
+  let headIndex = 0;
+  // let offset = parentWidth; // Start just offscreen to the right
+  let offset = 0; // Start fully onscreen
+
+  // Initialize first set of images
+  for (let i = 0; i < numImages; i++) {
+    let img = document.createElement('img');
+    img.setAttribute('src', coverImages[i % coverImages.length]);
+    img.classList.add('marquee-image');
+    marqueeTrack.appendChild(img);
+    activeSlots.push(img);
+  }
+
+  // Fade in the marquee
+  marqueeTrack.classList.add('animated-fade-in');
+  
+  function updateMarquee() {
+    offset -= speed;
+
+    if (offset <= -slotWidth) {
+      const firstSlot = activeSlots.shift();
+      activeSlots.push(firstSlot);
+      marqueeTrack.appendChild(firstSlot);
+      // Reset track position to emulate infinite scroll
+      offset += slotWidth;
+
+      // Update content of the recycled image
+      headIndex = (headIndex + 1) % coverImages.length;
+      const nextImageIndex = (headIndex + numImages - 1) % coverImages.length;
+      firstSlot.setAttribute('src', coverImages[nextImageIndex]);
+    }
+
+    // Apply transform to marquee track
+    marqueeTrack.style.transform = `translateX(${offset}px)`;
+    marqueeAnimationFrame = requestAnimationFrame(updateMarquee);
+  }
+
+  marqueeAnimationFrame = requestAnimationFrame(updateMarquee);
 
 
   colorIndices.push(1000000);
