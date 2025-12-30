@@ -26,11 +26,16 @@ function getRankingYear() {
   return parseYear(rawQueryYear);
 }
 
-// Pull year from query param and load json file
-const initialYear = getRankingYear();
-const select = document.getElementById('year-select');
-select.value = `${initialYear}`;
-loadYear(initialYear);
+document.addEventListener('DOMContentLoaded', (event) => {
+  // Initialize video default volume
+  const video = document.getElementById('opening-video');
+  video.volume = 0.5;
+  // Pull year from query param and load json file
+  const initialYear = getRankingYear();
+  const select = document.getElementById('year-select');
+  select.value = `${initialYear}`;
+  loadYear(initialYear);
+});
 
 function loadYear(year) {
   if (!VALID_YEARS.includes(year)) {
